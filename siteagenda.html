@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>CLÍNICA ODONTOLÓGICA</title>
+	<link href="estilos/siteagenda.css" rel="stylesheet">
+</head>
+<body>
+
+	<!-- MENU DA PAGINA  -->
+	<div class="clinica">
+	    <header class="h">
+		<h1>   <img src="img/clinicaodonto.png" id="imagem2" >	</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" rel="stylesheet">Inicio</a></li>
+                <li><a href="sitesobre.html" rel="stylesheet">Sobre</a></li>
+                  <li><a href="siteservicos.html" rel="stylesheet">Serviços</a></li>
+                <li><a href="siteagenda.html" rel="stylesheet">Agenda</a></li>
+                <li><a href="sitecontato.html" rel="stylesheet" class="colorunico">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+	
+	<div class="divvv">
+	
+	<!-- FORMULARIO DE AGENDAMENTO  -->
+		<div class="formu">
+		<h2>AGENDAMENTO</h2> <!--http://www.thiagomiranda.net/formulario.php-->
+		<form action="http://www.thiagomiranda.net/formulario.php" method="POST">
+				<div class="lab1">
+				<label>NOME:
+					<input type="text" name="nomecompleto" placeholder="Digite seu nome completo"> 
+				</label>
+						  </div>
+				<div class="lab2">			
+				<label>EMAIL:
+					<input type="email" name="email" placeholder="Digite o email que você mais utiliza">
+				</label>
+				</div>
+				<div class="lab3">	
+				<label>NÚMERO:
+					<input type="tel" name="telefone" placeholder="(xx) xxxxx-xxxx">
+				</label>
+				</div>
+				<!--<div class="data">
+					<label> Data da consulta:
+					<input type="date" name="data" class="data1">
+					</label>
+				</div>-->
+				<div class="clas">
+				<div class="lab4">
+				 <label >Comentário:<br>
+				 <textarea name="comentario" rows="5" cols="25"></textarea> 
+				 </label>
+				</div>
+				<div class="lab5">
+				<label>BAIRRO:         
+				<select name="bairro" >
+					<option value="centro" selected>Centro</option>
+					<option value="taquari">Taquari</option>
+					<option value="estocada">Estocada</option>
+				</select>
+				</label>
+				</div>
+				</div>
+	
+						<!-- BOTAO DE ENVIAR -->
+						<div>
+						<button type="submit">Enviar</button>
+						</div>
+						
+				</div>
+				</form>
+				</div>
+	
+</div>
+
+				<!-- FINAL DA PAGINA  -->
+				<footer id="rodape">
+				<p class="fim"><br>&copy; Sorria mais desenvovido por MELM&trade; - Todos os direitos reservados.</p>
+				<footer>
+	
+</body>
+</html>
