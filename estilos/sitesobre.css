@@ -1,0 +1,193 @@
+@font-face{
+	src:url("../fonts/mogen-bold.ttf");
+	font-family: "duda";
+}
+*{
+        margin:0;
+        padding:0;
+        font-family: arial;
+		box-sizing:border-box;
+}
+
+body{
+            width: 100%;
+            background:#D8FFDB;
+			color:black;
+			
+ }
+.colorunico{
+            color:black;
+            border:3px solid #D1FFF5;
+            padding:10px;
+            background-color:white;
+			border-radius:10px;
+ }
+ .colorunico:hover{
+	 color:white;
+	 background-color:black;
+	 transition:0.7s;
+ }
+img{
+            width:100px;
+            heigth:90px;
+ }
+header{
+            display:flex;
+            justify-content: space-evenly;
+            background:#D1FFF5;
+            height:15vh;
+            align-items:center;
+            border-bottom:2px solid white;
+ }
+h1{
+            font-size:1.3rem;
+			align-items:center;
+			display:flex;
+			font-family:'duda', sans serif;
+ }
+nav{
+            width:80%;
+}
+header nav ul{
+            display:flex;
+            justify-content: space-evenly;
+}
+li{
+            list-style:none;
+ }
+li a{
+            text-decoration:none;
+            color:black;
+			font-size:20px;
+			font-family:'duda', sans serif;
+}
+
+/*       rodape          */
+.fim{
+	font-size:9px;
+	background-color:white;
+	text-align:center;
+	height:30px;
+	border-top: 1px solid #D8FFDB;
+    position:fixed;
+	bottom:0;
+	margin-top:30px;
+	width:100%;
+	
+}
+
+/*        PAGINA DO SOBRE         */
+h2{
+	height:70px;
+	text-align:center;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	color:#000000;
+	opacity:0.4;
+	font-size:50px;
+	font-family:'duda', sans serif;
+}
+
+/*        IMAGEM         */
+/*div{
+	
+	background-color:#D8FFDB;
+}*/
+.divv{
+	background-image:url('../img/odonto3.jpg');
+	width:100%;
+	background-size:100% 100%, cover ;
+	height:82vh;
+}
+
+/*        CAIXAS DE TEXTO         */
+.container{
+	display:flex;
+	justify-content:space-evenly;
+	height:50vh;
+	display:flex;
+	align-items:center;
+	opacity:0.7;
+}
+.pro{
+	border-radius:10px;
+	width: 318px;
+	height:200px;
+	text-align:center;
+}
+.pro p{
+	text-indent:15px;
+	font-size:20px;
+}
+.pro main{
+	height:110px;
+}
+.pro div{
+	border-radius:10px;
+	border-top: 2px solid #A1FFAD;
+	border-bottom: 2px solid #A1FFAD;
+	background-color:#ffffff;
+}
+
+h3{
+	text-align:center;
+	font-family:'duda', sans serif;
+	font-size:23px;
+}
+
+
+/* section profissionais em serviço*/
+/*section{
+	
+	width: 100%;
+	height: 100vh
+}
+
+#profissionais{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+#profissionais div{
+	width: 300px;
+	height: 150px;
+	border:2px solid black;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}*/
+/*
+Errado
+
+.imgmedico{
+	width:100%;
+}
+#img1{
+	width:400px;
+	height:250px;
+	margin-left:40px;
+	border-radius:8px;
+	border:2px solid white;
+}
+.div1{
+	width:70%;
+	height:100%;
+	margin-bottom:20px;
+	margin-left:20px;
+	margin-top:40px;
+	margin-right:50px;
+}
+p{
+	text-align:center;
+	background-color:white;
+	font-size:
+}
+main{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    width:100%;
+    margin-top:50px;
+	height:100vh;
+}*/

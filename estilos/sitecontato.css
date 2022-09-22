@@ -1,0 +1,172 @@
+@font-face{
+	src:url("../fonts/mogen-bold.ttf");
+	font-family: "duda";
+}
+*{
+        margin:0;
+        padding:0;
+        font-family: arial;
+		box-sizing:border-box;
+}
+
+body{
+            width: 100%;
+			height:90vh;
+            background:#D1FFF5;
+			color:black;
+ }
+.colorunico{
+            color:black;
+            border:3px solid #D1FFF5;
+            padding:10px;
+            background-color:white;
+			border-radius:10px;
+ }
+ .colorunico:hover{
+	 color:white;
+	 background-color:black;
+	 transition:0.7s;
+ }
+img{
+            width:100px;
+            heigth:90px;
+ }
+header{
+            display:flex;
+            justify-content: space-evenly;
+            background:#D1FFF5;
+            height:15vh;
+            align-items:center;
+            border-bottom:2px solid white;
+ }
+h1{
+            font-size:1.3rem;
+			align-items:center;
+			display:flex;
+ }
+nav{
+            width:80%;
+}
+header nav ul{
+            display:flex;
+            justify-content: space-evenly;
+}
+li{
+            list-style:none;
+ }
+li a{
+            text-decoration:none;
+            color:black;
+			font-size:20px;
+			font-family:'duda', sans serif;
+}
+
+/*       rodape          */
+.fim{
+	font-size:9px;
+	background-color:white;
+	text-align:center;
+	height:30px;
+	position:fixed;
+	bottom:0;
+	margin-top:30px;
+	width:100%;
+}
+
+/*        contato         */
+
+#div1,#div2,#div3{
+	 	width: 400px;
+	 	height: 350px;
+	 	display: flex;
+	 	align-items: center;
+		flex-direction:column;
+		border-right:2px solid #D8FFDB;
+		justify-content:center;
+	 }
+main{
+		background-color:#D1FFF5;
+	 	width:100%;
+	 	height:80vh; 
+	 	display: flex;
+	 	align-items: center;
+	 	justify-content: space-evenly;
+}
+#id{
+	 	flex-direction: column;
+		opacity:0.7;
+}
+#id > div{
+	border-right:2px solid #D8FFDB;
+	padding:10px;
+	width:43%;
+}
+
+.div1{
+	align-items:center;
+}
+#id > div:nth-child(3){
+	border-right:none;
+}
+
+#id > div p{
+	font-size:1rem;
+	text-align:center;
+	font-family:'duda', sans serif;
+}
+.div{
+	 display:flex;
+	 justify-content:space-between;
+	 margin-bottom:15px;
+	 width:60%;
+	 margin-top:15px;
+ }
+
+/*            botao      */
+.botao{
+	padding:15px;
+	font-size:0.8rem;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-weight:bold;
+	text-align:center;
+	background:#ffffff;
+	border-radius:10px;
+	color:#000000;
+	font-family:'duda', sans serif;
+	box-shadow:20px 10px 50px #86E6AD;
+}
+h2{
+	
+	font-family:'duda', sans serif;
+}
+
+
+#id a{
+	color:black;
+	display:flex;
+	justify-content:space-evenly;
+	text-decoration: none;
+}
+#imag{
+	height:50px;
+	width:50px;
+}
+/*.rotas{
+	padding:15px;
+	font-size:0.8rem;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-weight:bold;
+	text-align:center;
+	background:#ffffff;
+	border-radius:10px;
+	color:#000000;
+	font-family:'duda', sans serif;
+	box-shadow:1px 3px 30px #000000;
+}*/
+
+.botao:hover{
+	 background-color:#86E6AD;
+	 transition:0.7s;
+ }

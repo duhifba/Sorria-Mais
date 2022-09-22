@@ -1,0 +1,205 @@
+@font-face{
+	src:url("../fonts/mogen-bold.ttf");
+	font-family: "duda";
+}
+*{
+        margin:0;
+        padding:0;
+        font-family: arial;
+		box-sizing:border-box;
+}
+
+/*       Menu          */
+body{
+            width:100%;
+            background:#ffffff;
+			color:black;
+ }
+.colorunico{
+            color:black;
+            border:3px solid #D1FFF5;
+            padding:10px;
+            background-color:white;
+			border-radius:10px;
+			
+ }
+ .colorunico:hover{
+	 color:white;
+	 background-color:black;
+	 transition:0.7s;
+ }
+img{
+            width:100px;
+            heigth:90px;
+ }
+header{
+            display:flex;
+            justify-content: space-evenly;
+            background:#D1FFF5;
+            height:15vh;
+            align-items:center;
+			border:2px solid white;
+ }
+nav{
+            width:80%;
+}
+header nav ul{
+            display:flex;
+            justify-content: space-evenly;
+}
+li{
+            list-style:none;
+ }
+li a{
+            text-decoration:none;
+            color:black;
+			font-family:'duda', sans serif;
+			font-size:20px;
+}
+        /*======main==========*/
+#main1{
+            height:70vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+			background-image:url('../img/odonto5.jpg');
+			width:100%;
+			background-size:100% 100%, cover ;
+}
+span{
+            color:#D8FFDB;
+			
+			font-family:'duda', sans serif;
+}
+
+.diiv{
+	width:700px;
+	text-align:center;
+}
+.hh{
+	
+			font-size:19px;
+}
+h2, .hh{
+			font-family:'duda', sans serif;
+            color:black;
+			
+}	
+h2{
+	font-size:3rem;
+	font-family:'duda', sans serif;
+	
+}
+/*       rodape          */
+.fim{
+	font-size:9px;
+	background-color:white;
+	text-align:center;
+	height:30px;
+	border-top: 1px solid #D8FFDB;
+}
+
+/*       Texto de informações          */
+#main2{
+    background:#ffffff;
+	height:50vh;
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	text-align:left;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.h5{
+	font-size:30px;
+	margin-bottom:5px;
+	margin-left:30px;
+	font-family:'duda', sans serif;
+}
+
+main p{
+	font-size:18px;
+	margin-left:30px;
+
+}
+
+/*       profisionais          */
+#main3{
+	 	width:100%;
+	 	display: flex;
+	 	align-items: center;
+		justify-content:center;
+}
+ #cartao1,#cartao2,#cartao3,#cartao4{
+	 	width: 380px;
+	 	height: 200px;
+	 	display: flex;
+	 	align-items: center;
+	 	flex-direction: column;
+		justify-content:center;
+		box-shadow: 1px 2px 10px #D1FFF5, 1px 2px 10px #D1FFF5;
+		border-radius:10px;
+		text-align:center;
+		margin-left:15px;
+		margin-right:15px;
+}
+
+.foto1{
+	width:120px;
+    height:75px;
+	border-radius:10px;
+}
+.mainn{
+	height:100vh;
+}
+
+/*       Barra de informações final          */
+#id{
+		height:35vh;
+        display: flex;
+        justify-content: space-between;
+		margin-top:3vh;
+		background-color:#D1FFF5;
+		align-items:center;
+		width:100%;
+		font-family:'duda', sans serif;
+}
+#id > div{
+	border-right:2px solid #ffffff;
+	padding:10px;
+	width:43%;
+}
+#id > div:nth-child(4){
+	border-right:none;
+}
+#id h2{
+	font-size:2.2rem;
+	color:#000000;
+	margin-bottom:10px;
+	text-align:center;
+	
+}
+#id > div p{
+	font-size:1rem;
+	text-align:center;
+}
+
+/*  FOTOS da clinica */
+.clin{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+}
+.clin img{
+        width:280px;
+        height:150px;
+        border-radius: 10px;
+        margin:10px;
+		margin-top:40px;
+}
+#main4{
+	height:500px;
+	font-family:'duda', sans serif;
+	
+}

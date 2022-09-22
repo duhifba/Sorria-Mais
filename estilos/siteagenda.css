@@ -1,0 +1,164 @@
+@font-face{
+	src:url("../fonts/mogen-bold.ttf");
+	font-family: "duda";
+}
+*{
+        margin:0;
+        padding:0;
+        font-family: arial;
+		box-sizing:border-box;
+}
+
+body{
+            width: 100%;
+			height:90vh;
+            background:#D1FFF5;
+			color:black;	
+		
+ }
+.colorunico{
+            color:black;
+            border:3px solid #D1FFF5;
+            padding:10px;
+            background-color:white;
+			border-radius:10px;
+ }
+ .colorunico:hover{
+	 color:white;
+	 background-color:black;
+	 transition:0.7s;
+ }
+img{
+            width:100px;
+            heigth:90px;
+ }
+header{
+            display:flex;
+            justify-content: space-evenly;
+            background:#D1FFF5;
+            height:15vh;
+            align-items:center;
+            border-bottom:2px solid white;
+ }
+h1{
+            
+			align-items:center;
+			display:flex;
+ }
+nav{
+            width:80%;
+}
+header nav ul{
+            display:flex;
+            justify-content: space-evenly;
+}
+li{
+            list-style:none;
+ }
+li a{
+            text-decoration:none;
+            color:black;
+			font-size:20px;
+			font-family:'duda', sans serif;
+}
+
+/*       rodape          */
+.fim{
+	font-size:9px;
+	background-color:white;
+	text-align:center;
+	height:30px;
+	position:fixed;
+	bottom:0;
+	margin-top:30px;
+	width:100%;
+}
+
+/*        agenda         */
+.divvv{
+    /* caixa do formulario centralizada */
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	
+}
+.formu{
+	background:#D1FFF5;
+	width:500px;
+	height:80vh;
+	box-shadow: 1px 3px 30px #A1FFAD, 2px 4px 40px #A1FFAD;
+	padding:35px 30px;
+	margin-bottom:50px;
+	margin-top:50px;
+	display:grid;
+	grid-template-rows:15% 60% 25%;
+	grid-template-columns:30% 40% 30%;
+	justify-content:center;
+	align-content:center;
+	border-radius:10px;
+}
+form{
+	display:grid;
+	grid-rows:1/3;
+	grid-column:1/3;
+}
+h2{
+	text-align:center;
+	font-size:25px;
+	color:#86E6AD;
+	margin-left:100px;
+	font-family:'duda', sans serif;
+}
+input{
+	width:400px;
+	height:50px;
+	background:#D1FFF5;
+	border:1px solid #86E6AD;
+	margin-bottom:15px;
+	padding:20px;
+	border-radius:10px;
+}
+label{
+	color:#86E6AD;
+	font-family:'duda', sans serif;
+}
+
+/* caixa de comentario */
+textarea{
+	background:#D1FFF5;
+	border:2px solid #86E6AD;
+	border-radius:10px;
+}
+
+/* bairro e comentario */
+.clas{
+	display:flex;
+	justify-content:space-between;
+}
+
+/* caixa de bairro */
+select{
+	background-color:#D1FFF5;
+	border:2px solid #86E6AD;
+	color:#86E6AD;
+	border-radius:10px;
+	margin-right:25px;
+}
+
+/* botao de enviar */
+button{
+	padding:10px 30px;
+	background-color:#A1FFAD;
+	border:1px solid #86E6AD;
+	color:#ffffff;
+	margin-left:320px;
+	display:flex;
+	font-family:'duda', sans serif;
+	border-radius:10px;
+	
+}
+button:hover{
+	 color:white;
+	 background-color:black;
+	 transition:0.7s;
+ }
